@@ -1,4 +1,6 @@
 # Notes du cours
 *Luigi AUBRY-POUGET*
 
-## Titre
+## JS
+NodeJS -> executer du JavaScript en tant que language serveur
+node --version
