@@ -18,7 +18,7 @@ for (jour of tabJours) {
 // 3 Créez un tableau contenant les nombres pairs de 2 à 10. Écrivez un programme qui calcule la somme des nombres du tableau et l'affiche à la console. 
 let tabNombresPairs = [];
 for (let i = 0; i <= 10; i++) {
-    if (i % 2 == 0) {
+    if (i % 2 === 0) {
         tabNombresPairs.push(i);
     }
 }
