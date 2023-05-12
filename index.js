@@ -18,7 +18,3 @@ const greet = (param) => {console.log('hello ' + param);}
 // callbacks
 setTimeout(() => console.log('callback'), 3000)
 console.log('avant fin timeout...');
-
-fetch('https://google.com')
-.then(response => response.json())
-.then()

@@ -79,16 +79,19 @@ console.log(`- Exo 7 : triDec([3,2,6,56,34]) = [${triDec([3,2,6,56,34])}]`);
 
 // 8 Écrivez une fonction qui prend une chaîne de caractères et renvoie une nouvelle chaîne avec toutes les voyelles en majuscules. 
 function majVoyelles(string) {
-    let voyelles = ['a', 'e', 'i', 'o', 'u', 'y'];
-    newString = '';
-    for (char of string) {
-        if (voyelles.indexOf(char) !== -1) {
-            newString += char.toUpperCase();
-        } else {
-            newString += char;
-        }
-    }
-    return newString;
+    newString = (string) => {};
+
+
+    // let voyelles = ['a', 'e', 'i', 'o', 'u', 'y'];
+    // newString = '';
+    // for (char of string) {
+    //     if (voyelles.indexOf(char) !== -1) {
+    //         newString += char.toUpperCase();
+    //     } else {
+    //         newString += char;
+    //     }
+    // }
+    // return newString;
 }
 console.log(`- Exo 8 : majVoyelles('Bonjour') = ${majVoyelles('Bonjour')}`);
 
@@ -109,4 +112,4 @@ function majConsonnes(string) {
     }
     return newString;
 }
-console.log(`- Exo 8 : majConsonnes('Bonjour') = ${majConsonnes('Bonjour')}`);
+console.log(`- Exo 10 : majConsonnes('Bonjour') = ${majConsonnes('Bonjour')}`);
